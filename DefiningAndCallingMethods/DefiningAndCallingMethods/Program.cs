@@ -2,7 +2,7 @@
 using System.Net.Http;
 using System.Runtime.InteropServices.ComTypes;
 
-namespace DefiningAndCallingMethods
+namespace HelperMethods
 {
     class Program                // Input from console and display the reverse name and address
     {
@@ -19,7 +19,7 @@ namespace DefiningAndCallingMethods
             Console.WriteLine("In what city are you born?");
             string city = Console.ReadLine();
 
-            /*                                                      One option  - but repetitive code
+            /*                                              Option 1 - but repetitive code
             char[] firstNameArray = firstName.ToCharArray();
             Array.Reverse(firstNameArray);
 
@@ -54,7 +54,7 @@ namespace DefiningAndCallingMethods
 
             Console.WriteLine("Result: "+result);
             */
-            // option 2: Calling method
+                                                            // option 2: Calling method
             /*
             Console.WriteLine("Results: ");
             ReverseString(firstName);
@@ -66,7 +66,7 @@ namespace DefiningAndCallingMethods
 
             Console.ReadLine();
         }
-        // Option 3: The game name with reverse and calling methods
+                                        // Option 3: The game name with reverse and calling methods
 
         /*
         private static void ReverseString(string message)
@@ -100,6 +100,8 @@ namespace DefiningAndCallingMethods
                 reversedFirstName,
                 reversedLastName,
                 reversedCity));
+            Console.WriteLine();
+            //Console.WriteLine($"Result is: {reversedFirstName}, {reversedLastName}, {reversedCity}");
         }
 
     }
