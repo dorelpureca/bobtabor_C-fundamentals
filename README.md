@@ -1,6 +1,10 @@
 # C# Fundamentals for absolute beginners from Bob Tabor
 
 https://www.youtube.com/watch?v=sQurwqK0JNE&t=24425s
+
+```python
+import foobar
+
 1 - 0:00 Course Introduction
 2 - 8:12 Installing Visual Studio
 3 - 14:02 Creating your first C# Program
@@ -26,3 +30,4 @@ https://www.youtube.com/watch?v=sQurwqK0JNE&t=24425s
 22 - 7:02:28 Gracefully Handling Exceptions
 23 - 7:23:42 Understanding Events and Event-Driven Programming
 24 - 7:44:52 Where to Go from Here
+```
